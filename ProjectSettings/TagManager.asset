@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerBullet
+  - camera_confines
+  - Enemy
+  - EnemySpawner
+  - EnemyProjectile
+  - pickup
+  - gun_pickup
+  - Key
+  - Lock
+  - Cannon
+  - KeySpawner
+  - GatesTileset
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Hazards
+  - player_projectile
+  - player
+  - confines
+  - triggers
+  - enemy_projectile
+  - Enemies
+  - 
+  - Platforms
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

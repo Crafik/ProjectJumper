@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2828141861748956512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4612188386487346650}
+  - component: {fileID: 8540772871066199617}
+  m_Layer: 0
+  m_Name: debug_teleport_point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4612188386487346650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828141861748956512}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64.8, y: 17.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8540772871066199617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2828141861748956512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5546c6e6ff3c68e42908784311d17cb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunPrefab: {fileID: 2576342397298246333, guid: 6c738ab6e767bc840bffab50e5a10724, type: 3}
+  missilePrefab: {fileID: 911076063790231391, guid: 299663b20e5b4fe4bb0b5f5716d33c5b, type: 3}
+  bombPrefab: {fileID: 5692476906165610523, guid: fd4b736c58424ba4cb8d178842cd26a0, type: 3}
+  genericEnemyPrefab: {fileID: 3456391249020861399, guid: d178f2bed8a26ab428a1fdb3d448a79c, type: 3}
+  bombUpForce: 100
+  bombSideForce: 75
+  bombSideForceStep: 45
+  minionUpForce: 100
+  minionSideForce: 194.4
+  minionSideForceStep: 109.7
